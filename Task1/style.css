@@ -1,0 +1,66 @@
+/* Box model reset and basic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #555;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #777;
+}
+
+/* Main Content & Sidebar (using floats) */
+.content-wrapper {
+    overflow: hidden; /* This is a common method for clearfix */
+    margin: 20px 0;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #ddd;
+    float: left;
+    padding: 15px;
+    border-right: 2px solid #ccc;
+}
+
+.main-content {
+    width: 70%;
+    background-color: #eee;
+    float: right;
+    padding: 15px;
+}
