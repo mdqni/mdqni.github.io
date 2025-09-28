@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 3 </title>
+    <title>Assignment 3</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -23,8 +23,9 @@
 
 <main class="container">
 
+    <!-- Часть 1: Карточки -->
     <section class="cards-row" aria-label="cards">
-        <article class="card">
+        <div class="card">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Camara.jpg/250px-Camara.jpg"
                  alt="Фото продукта 1">
             <div class="card-body">
@@ -33,9 +34,9 @@
                     работать в сложных условиях освещения.</p>
                 <button>Подробнее</button>
             </div>
-        </article>
+        </div>
 
-        <article class="card">
+        <div class="card">
             <img src="https://www.ixbt.com/img/n1/news/2025/2/1/space42-launches-thuraya-one-satellite-smartphone.jpg"
                  alt="Фото продукта 2">
             <div class="card-body">
@@ -44,9 +45,9 @@
                     развлечений.</p>
                 <button>Подробнее</button>
             </div>
-        </article>
+        </div>
 
-        <article class="card">
+        <div class="card">
             <img src="https://chipgifts.ru/image/cache/Chance%20Group%20/-%D1%81%D0%BA%D0%B5%D0%B9%D1%82%D0%B1%D0%BE%D1%80%D0%B4-E-Glide-Aluminum-All-Terrain_1-1000x1000.jpg"
                  alt="Фото продукта 3">
             <div class="card-body">
@@ -55,16 +56,18 @@
                     расстояния.</p>
                 <button>Подробнее</button>
             </div>
-        </article>
+        </div>
     </section>
 
-    <section class="page-grid" aria-label="grid-layout">
+    <!-- Часть 2: Grid -->
+    <section class="grid-container" aria-label="grid-layout">
         <div class="grid-header">Заголовок</div>
-        <aside class="grid-sidebar">Сайдбар</aside>
-        <article class="grid-main">Основной контент</article>
+        <div class="grid-sidebar">Сайдбар</div>
+        <div class="grid-main">Основной контент</div>
         <div class="grid-footer">Подвал</div>
     </section>
 
+    <!-- Часть 3: Галерея -->
     <section class="gallery" aria-label="gallery">
         <div class="gallery-item">
             <img src="https://hightechgallery.com/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large_-300x300.jpg"
@@ -95,10 +98,11 @@
         </div>
     </section>
 
+    <!-- Часть 4: Портфолио -->
     <section class="portfolio">
         <div class="portfolio-grid">
             <div class="projects">
-                <article class="project-card">
+                <div class="project-card">
                     <div class="proj-left">
                         <h3>Проект 1: Веб-сайт для ресторана</h3>
                         <p>Сайт для ресторана с функцией онлайн-бронирования и цифровым меню.</p>
@@ -106,9 +110,9 @@
                     <div class="proj-right">
                         <button>Подробнее</button>
                     </div>
-                </article>
+                </div>
 
-                <article class="project-card">
+                <div class="project-card">
                     <div class="proj-left">
                         <h3>Проект 2: Образовательная платформа</h3>
                         <p>Платформа для онлайн-обучения с тестами и трекингом прогресса.</p>
@@ -116,13 +120,13 @@
                     <div class="proj-right">
                         <button>Подробнее</button>
                     </div>
-                </article>
+                </div>
             </div>
 
-            <aside class="portfolio-aside">
+            <div class="portfolio-aside">
                 <h4>Информация о проекте</h4>
                 <p>Краткая информация и контакты.</p>
-            </aside>
+            </div>
         </div>
     </section>
 
