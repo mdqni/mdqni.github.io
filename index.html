@@ -1,98 +1,136 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>My First Page</title>
+    <meta charset="UTF-8">
+    <title>Assignment 3 </title>
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
-<h1>Madi Kuanay</h1>
-<h2>SE-2430</h2>
-<h3>About Me</h3>
-<p>Hello! My name is Madi Kuanay. I am a student at AITU, and I am interested in web development and technology. I'm
-    programming right now</p>
-<br>
-<br>
-<br>
 
-<h3>My Hobbies</h3>
-<ol>
-    <li>Coding</li>
-    <li>Playing Cs2</li>
-    <li>TikTok</li>
-    <li>Listening to music</li>
-</ol>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">Мой Логотип</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-<h3>My Favorite Websites</h3>
-<ul>
-    <li>TikTok</li>
-    <li>YouTube</li>
-    <li>GitHub</li>
-</ul>
+<main class="container">
 
+    <section class="cards-row" aria-label="cards">
+        <article class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Camara.jpg/250px-Camara.jpg"
+                 alt="Фото продукта 1">
+            <div class="card-body">
+                <h3>Линза премиум класса</h3>
+                <p>Эта линза создана для профессиональных фотографов. Отличается высокой резкостью и способностью
+                    работать в сложных условиях освещения.</p>
+                <button>Подробнее</button>
+            </div>
+        </article>
 
-<a href="https://www.tiktok.com" target="_blank">Tiktok</a> <br>
-<a href="https://www.youtube.com" target="_blank">YouTube</a><br>
-<a href="https://www.github.com" target="_blank">GitHub</a><br>
+        <article class="card">
+            <img src="https://www.ixbt.com/img/n1/news/2025/2/1/space42-launches-thuraya-one-satellite-smartphone.jpg"
+                 alt="Фото продукта 2">
+            <div class="card-body">
+                <h3>Гибридный смартфон</h3>
+                <p>Совершенно новый гибридный смартфон с функциями планшета. Прекрасно подходит для работы и
+                    развлечений.</p>
+                <button>Подробнее</button>
+            </div>
+        </article>
 
-<br>
-<br>
+        <article class="card">
+            <img src="https://chipgifts.ru/image/cache/Chance%20Group%20/-%D1%81%D0%BA%D0%B5%D0%B9%D1%82%D0%B1%D0%BE%D1%80%D0%B4-E-Glide-Aluminum-All-Terrain_1-1000x1000.jpg"
+                 alt="Фото продукта 3">
+            <div class="card-body">
+                <h3>Электрический скейтборд</h3>
+                <p>Легкий и мощный скейтборд с отличным запасом хода. Отлично подходит для городских поездок на короткие
+                    расстояния.</p>
+                <button>Подробнее</button>
+            </div>
+        </article>
+    </section>
 
-<button>Click Me</button>
+    <section class="page-grid" aria-label="grid-layout">
+        <div class="grid-header">Заголовок</div>
+        <aside class="grid-sidebar">Сайдбар</aside>
+        <article class="grid-main">Основной контент</article>
+        <div class="grid-footer">Подвал</div>
+    </section>
 
-<h3>My Weekly Schedule</h3>
-<table border="3">
-    <tr>
-        <th>Subject</th>
-        <th>Day</th>
-        <th>Time</th>
-    </tr>
-    <tr>
-        <td>Web Development</td>
-        <td>Monday</td>
-        <td>10:00 - 11:30</td>
-    </tr>
-    <tr>
-        <td>Computer Science/td>
-        <td>Tuesday</td>
-        <td>12:00 - 13:30</td>
-    </tr>
-    <tr>
-        <td>Computer Networks</td>
-        <td>Wednesday</td>
-        <td>09:00 - 10:30</td>
-    </tr>
-    <tr>
-        <td>Mathematics</td>
-        <td>Thursday</td>
-        <td>14:00 - 15:30</td>
-    </tr>
-    <tr>
-        <td>English</td>
-        <td>Friday</td>
-        <td>11:00 - 12:30</td>
-    </tr>
-</table>
+    <section class="gallery" aria-label="gallery">
+        <div class="gallery-item">
+            <img src="https://hightechgallery.com/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large_-300x300.jpg"
+                 alt="Галерея 1">
+            <div class="caption">Галерея 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://hightechgallery.com/wp-content/uploads/2024/10/387143523_332280045980523_293091657306700787_n-300x300.jpg"
+                 alt="Галерея 2">
+            <div class="caption">Галерея 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://hightechgallery.com/wp-content/uploads/2024/04/Redmi-A2-Green-300x300.jpg"
+                 alt="Галерея 3">
+            <div class="caption">Галерея 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://m-home.kz/images/xiaomi-robot-vacuum-s10/1.webp" alt="Галерея 4">
+            <div class="caption">Галерея 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://object.pscloud.io/cms/cms/Photo/img_0_62_3205_0_1_GxZNGq.jpg" alt="Галерея 5">
+            <div class="caption">Галерея 5</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/715zrA5cmLL._AC_SL1500_.jpg" alt="Галерея 6">
+            <div class="caption">Галерея 6</div>
+        </div>
+    </section>
 
-<br>
+    <section class="portfolio">
+        <div class="portfolio-grid">
+            <div class="projects">
+                <article class="project-card">
+                    <div class="proj-left">
+                        <h3>Проект 1: Веб-сайт для ресторана</h3>
+                        <p>Сайт для ресторана с функцией онлайн-бронирования и цифровым меню.</p>
+                    </div>
+                    <div class="proj-right">
+                        <button>Подробнее</button>
+                    </div>
+                </article>
 
-<p>🌐 🎯 &#128518</p>
+                <article class="project-card">
+                    <div class="proj-left">
+                        <h3>Проект 2: Образовательная платформа</h3>
+                        <p>Платформа для онлайн-обучения с тестами и трекингом прогресса.</p>
+                    </div>
+                    <div class="proj-right">
+                        <button>Подробнее</button>
+                    </div>
+                </article>
+            </div>
 
-<h3>Contact Form</h3>
-<form style="align-content: center; border: 2px solid black; width: 300px">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
+            <aside class="portfolio-aside">
+                <h4>Информация о проекте</h4>
+                <p>Краткая информация и контакты.</p>
+            </aside>
+        </div>
+    </section>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br><br>
+</main>
 
-    <label for="color">Favorite Color:</label><br>
-    <input type="color" id="color" name="color"><br><br>
-
-    <input type="submit" value="Submit">
-</form>
+<footer class="site-footer">
+    <div class="container">a</div>
+</footer>
 
 </body>
-
 </html>

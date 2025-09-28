@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    margin: 20px;
+}
+
+header, aside, main, footer {
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    background: #4CAF50;
+    color: white;
+}
+
+aside {
+    grid-area: sidebar;
+    background: #f1f1f1;
+}
+
+main {
+    grid-area: main;
+    background: #f9f9f9;
+}
+
+footer {
+    grid-area: footer;
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+/* Часть 3: Галерея изображений */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
